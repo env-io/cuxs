@@ -1,0 +1,13 @@
+image: qasico/go:latest
+
+before_script:
+  - go version
+  - mkdir $GOPATH/src/github.com/env-io
+  - mkdir $GOPATH/src/github.com/env-io/cuxs
+  - WD="$GOPATH/src/github.com/env-io/cuxs/mailer"
+
+test:
+  script:
+    - "cp -R $(pwd) $WD && cd $WD"
+    - glide install
+    - gotest

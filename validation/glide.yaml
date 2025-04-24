@@ -1,0 +1,3 @@
+package: github.com/env-io/cuxs/validation
+import:
+  - package: github.com/env-io/cuxs/common
