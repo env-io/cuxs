@@ -10,7 +10,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/naufaldinta13/cuxs/validation"
+	"github.com/env-io/cuxs/validation"
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"
 )

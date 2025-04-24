@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/naufaldinta13/cuxs/common/log"
 	"github.com/Sirupsen/logrus"
+	"github.com/env-io/cuxs/common/log"
 	"github.com/labstack/echo"
 )
 

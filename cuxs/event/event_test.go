@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/naufaldinta13/cuxs/cuxs/event"
+	"github.com/env-io/cuxs/cuxs/event"
 	"github.com/stretchr/testify/assert"
 )
 
