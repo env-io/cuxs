@@ -7,7 +7,7 @@ package cuxs
 import (
 	"github.com/env-io/cuxs/cuxs/mw"
 
-	"github.com/env-ioommon/log"
+	"github.com/env-io/common/log"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )
